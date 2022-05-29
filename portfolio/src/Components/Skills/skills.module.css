@@ -1,0 +1,72 @@
+.skilldiv{
+    text-align: center;
+    /* height: 1000px; */
+    background-color: teal;
+}
+
+.skilldiv > h1{
+    font-size: 45px;
+    background-color: teal;
+    color:white;
+    padding: 10px;
+}
+
+.skouter{
+    display: flex;
+    /* margin: 10px 10%; */
+    justify-content: space-around;
+
+}
+.skf1{
+    border-right: solid #272341;
+    width: 50%;
+    /* height: 500px; */
+}
+.skf1> h1{
+    background-color:#272341 ;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+.skf1 div{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 20px auto;
+     color: #272341;
+     background-color: rgb(199, 174, 174);
+    width: 100px;
+    border-radius: 10px;
+    
+}
+.skf1 div:hover{
+    background-color: #272341;
+    color: whitesmoke;
+}
+.skf2{
+    border-left: solid #272341 ;
+    width: 49%;
+    /* height: 500px; */
+}
+.skf2> h1{
+    background-color:#272341 ;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.skf2 div{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 20px auto;
+     color: #272341;
+     background-color: rgb(199, 174, 174);
+    width: 200px;
+    border-radius: 10px;
+}
+.skf2 div:hover{
+    background-color: #272341;
+    color: whitesmoke;
+}
+

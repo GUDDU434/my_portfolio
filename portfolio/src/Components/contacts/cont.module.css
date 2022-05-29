@@ -1,0 +1,33 @@
+
+.contDiv{
+/* border: solid rebeccapurple 1px; */
+height: 500px;
+text-align: center;
+background-color: teal;
+}
+.contDiv > h1{
+    font-size: 45px;
+color: #272341;
+padding-top: 50px;
+}
+.mobile{
+    border-top: solid #272341 3px;
+    color: #272341;
+}
+.mobile p{
+    font-size: 22px;
+}
+.mobile p span:hover{
+    color: black;
+    font-size: 23px;
+}
+.logodiv{
+    display: flex;
+    /* border: solid red; */
+    width: fit-content;
+    margin: auto;
+}
+.logodiv div{
+    margin: 20px;
+    cursor: pointer;
+}

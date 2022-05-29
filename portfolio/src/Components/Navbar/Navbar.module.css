@@ -1,0 +1,29 @@
+.maincontainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.navContainer{
+    display: flex;
+    align-items: center;
+    /* height: 50px; */
+}
+.logo img{
+    cursor: pointer;
+}
+
+.navContainer div{
+    margin: 10px;
+    font-size: 20px;
+    color:#272341; ;
+    font-weight: bolder;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.navContainer div:hover{
+    background-color: #272341;
+    color: white;
+}

@@ -1,0 +1,12 @@
+.nav{
+    background-color: aquamarine;
+    height: 75px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+.nav div{
+    margin: 50px;
+
+}
