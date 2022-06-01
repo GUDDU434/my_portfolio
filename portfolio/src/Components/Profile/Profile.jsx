@@ -15,7 +15,7 @@ export const Profile = () => {
         </h1>
         <p className={styles.title}>I AM A FULL STACK WEB DEVELOPER</p>
         <p className={styles.tagline}>
-          I enjoy coding and devloping user centeric web aplication <br /> Talk
+          I enjoy coding and devloping user centeric web aplication! <br /> Talk
           and discuss about new technology!
         </p>
         <div className={styles.buttondiv}>

@@ -1,5 +1,4 @@
 .profile{
-    height: 625px;
     background-color: teal;
     display: flex;
     justify-content: space-around;
@@ -57,4 +56,146 @@
 }
 .tagline{
     font-size: 20px;
+}
+
+@media (max-width: 820px){
+    .profilepic{
+        /* border: solid red 1px; */
+        display: flex;
+        align-items: center;
+        height: 350px;
+        width: 200px;
+    }
+    .namediv{
+        /* border: solid red 1px; */
+        width: 45%;
+        padding: 15PX;
+    }
+    .namediv h1{
+        font-size: 30px;
+        color: #272341;
+    }
+    #name{
+        color: whitesmoke;
+        font-size: 45px;
+    }
+    .title{
+        color: #272341;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: -10px;
+    }
+    .buttondiv{
+        /* border: solid; */
+        margin-top: 50px;
+    }
+    .buttondiv button{
+        background-color: #272341;
+        color: white;
+        font-size: 15px;
+        padding: 10px 30px;
+        margin: 7px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .buttondiv button:hover{
+        background-color: black;
+        color: white;
+        padding: 12px 32px;
+    }
+    .tagline{
+        font-size: 13px;
+    }
+}
+@media (max-width: 660px){
+    .profilepic{
+        /* border: solid red 1px; */
+        display: flex;
+        align-items: center;
+        height: 275px;
+        width: 175px;
+    }
+    .namediv{
+        /* border: solid red 1px; */
+        width: 45%;
+        padding: 10PX;
+    }
+    .namediv h1{
+        font-size: 22px;
+    }
+    #name{
+        color: whitesmoke;
+        font-size: 35px;
+    }
+    .title{
+        font-size: 18px;
+        margin-top: -12px;
+    }
+    .buttondiv{
+        /* border: solid; */
+        margin-top: 30px;
+    }
+    .buttondiv button{
+        background-color: #272341;
+        color: white;
+        font-size: 15px;
+        padding: 7px 20px;
+        margin: 3px;
+        border-radius: 7px;
+    }
+    .buttondiv button:hover{
+        background-color: black;
+        color: white;
+        padding: 10px 22px;
+    }
+    .tagline{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 414px){
+    .profilepic{
+        /* border: solid red 1px; */
+        display: flex;
+        align-items: center;
+        height: 250px;
+        width: 125px;
+    }
+    .namediv{
+        /* border: solid red 1px; */
+        width: 45%;
+        padding: 5PX;
+    }
+    .namediv h1{
+        font-size: 18px;
+    }
+    #name{
+        color: whitesmoke;
+        font-size: 22px;
+    }
+    .title{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .buttondiv{
+        /* border: solid; */
+        margin-top: 18px;
+    }
+    .buttondiv button{
+        background-color: #272341;
+        color: white;
+        font-size: 10px;
+        padding: 5px 15px;
+        margin: 2px;
+        border-radius: 7px;
+    }
+    .buttondiv button:hover{
+        background-color: black;
+        color: white;
+        padding: 7px 18px;
+    }
+    .tagline{
+        font-size: 9    px;
+    }
+
 }

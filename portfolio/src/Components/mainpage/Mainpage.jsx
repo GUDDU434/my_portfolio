@@ -33,6 +33,12 @@ export const Mainpage = () => {
       behavior: "smooth",
     });
   };
+  const handleskills = () => {
+    window.scrollTo({
+      top: skills.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
   const handlecontacts = () => {
     window.scrollTo({
       top: contacts.current.offsetTop,
@@ -46,6 +52,7 @@ export const Mainpage = () => {
         handleprojects={handleprojects}
         handlecontacts={handlecontacts}
         handleprofile={handleprofile}
+        handleskills={handleskills}
       />
       <div ref={profile}>
         <Profile />

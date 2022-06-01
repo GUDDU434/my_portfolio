@@ -1,7 +1,7 @@
 
 .contDiv{
 /* border: solid rebeccapurple 1px; */
-height: 500px;
+/* height: 500px; */
 text-align: center;
 background-color: teal;
 }
@@ -30,4 +30,64 @@ padding-top: 50px;
 .logodiv div{
     margin: 20px;
     cursor: pointer;
+}
+.copyright{
+    /* border-top: solid 3px ; */
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 820px){
+    .contDiv > h1{
+        font-size: 38px;
+    padding-top: 40px;
+    }
+    .mobile p{
+        font-size: 18px;
+    }
+    .mobile p span:hover{
+        color: black;
+        font-size: 20px;
+    }
+    .logodiv{
+        display: flex;
+        width: fit-content;
+        margin: auto;
+    }
+    .logodiv div{
+        margin: 15px;
+        cursor: pointer;
+    }
+    .copyright  p{
+    font-size: 15px;
+    }
+    
+}
+@media (max-width: 550px){
+    .contDiv > h1{
+        font-size: 38px;
+    padding-top: 40px;
+    }
+    .mobile p{
+        font-size: 18px;
+    }
+    .mobile p span:hover{
+        color: black;
+        font-size: 20px;
+    }
+    .logodiv{
+        display: flex;
+        width: fit-content;
+        margin: auto;
+    }
+    .logodiv div{
+        margin: 15px;
+        cursor: pointer;
+    }
+    .copyright  p{
+    font-size: 15px;
+    }
+}
+
+@media (max-width: 414px){
+   
 }

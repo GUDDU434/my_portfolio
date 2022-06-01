@@ -3,18 +3,23 @@ import styles from "./Navbar.module.css";
 import logo from "../images/logo.png";
 // import {Link,Button,Element,} from 'react-scroll'
 
-export const Navbar = ({handleabout,handleprojects,handlecontacts,handleprofile}) => {
+export const Navbar = ({handleabout,handleprojects,handlecontacts,handleprofile,handleskills}) => {
   return (
     <>
       <div className={styles.maincontainer}>
         <div className={styles.logo}>
-          <img height={"90px"} src={logo} alt="" />
+          <img className={styles.img} src={logo} alt="" />
         </div>
         <div className={styles.navContainer}>
-          <div onClick={handleprofile}> Profile</div>
-          <div onClick={handleabout}>About</div>
+          <div onClick={handleprofile}> Home</div>
+          
+          <div onClick={handleskills}>Skills</div>
+
           <div onClick={handleprojects}>Projects</div>
-          <div onClick={handlecontacts}>Contacts</div>
+          
+          <div onClick={handleabout}>About</div>
+
+          <div onClick={handlecontacts}>Contact</div>
         </div>
       </div>
     </>
