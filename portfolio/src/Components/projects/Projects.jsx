@@ -17,7 +17,8 @@ export const Projects = () => {
           <img src={pic1} alt="" />
 
           <p className={styles.disc}>
-            KFC (Kentucky Fried Chicken) is an American fast food restaurant
+          KFC (Kentucky Fried Chicken) is an American fast food restaurant chain headquartered in Louisville, Kentucky, that specializes in fried chicken.
+          Its a collaborative project which is completely build with react framework. It accomplished in 6 days.
           </p>
           <div className={styles.tech1}>
             <h3>Tech Stack:</h3>
@@ -48,8 +49,7 @@ export const Projects = () => {
           <h1>MamaEarth</h1>
           <img src={pic2} alt="" />
           <p className={styles.disc}>
-            Buy Mamaearth Chemical & Toxin Free Natural & Safe Skincare Products
-            Online.
+          In this project we have tried to manipulate dom elements, styling using css and tried to make a dynamic and responsive website. With our efforts and the technology stack, that we have learned till now in Unit-3 in the Masai school, we were able to clone more or less the whole website with same looking and features
           </p>
           <div className={styles.tech1}>
             <h3>Tech Stack:</h3>
@@ -80,7 +80,9 @@ export const Projects = () => {
         <div>
           <h1>Expedia</h1>
           <img src={pic3} alt="" />
-          <p className={styles.disc}>An American travel booking website</p>
+          <p className={styles.disc}>An American travel booking website.
+          The entire project where buid on HTML,CSS and JavaScript. 
+          This is my first colaboirative project. We are 6 people dedicatedly work and colaborated on it and completed it in 6 days.</p>
           <div className={styles.tech1}>
             <h3>Tech Stack:</h3>
             <div className={styles.tech}>

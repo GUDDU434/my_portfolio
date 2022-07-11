@@ -10,11 +10,11 @@
   padding: 10px;
 }
 .frontend {
-  display: flex;
-  /* border: solid red; */
-  padding: 50px;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4,25%);
   align-items: center;
+  width: fit-content;
+  margin: auto;
 }
 .skf1 > h1 {
   text-decoration: underline;
@@ -24,6 +24,11 @@
 }
 .skf1 img {
   height: 120px;
+  margin: 30px;
+  cursor: pointer;
+}
+.skf1 img:hover{
+  transform: scale(1.10);
 }
 
 @media (max-width: 820px){
@@ -33,51 +38,11 @@
     padding: 10px;
   }
   .frontend {
-    display: flex;
-    /* border: solid red; */
-    padding: 40px;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     align-items: center;
-  }
-  .skf1 > h1 {
-    text-decoration: underline;
-    color: #272341;
-    padding: 7px;
-    margin: 0;
-  }
-  .skf1 img {
-    height: 90px;
-  }
-  
-}
-@media (max-width: 550px){
-  .skilldiv > h1 {
-    font-size: 28px;
-    padding: 7px;
-  }
-  .frontend {
-    /* border: solid red; */
-    padding: 25px;
-  }
-  .skf1 > h1 {
-    text-decoration: underline;
-    color: #272341;
-    padding: 7px;
-    margin: 0;
-  }
-  .skf1 img {
-    height: 75px;
-  }
-}
-
-@media (max-width: 414px){
-  .skilldiv > h1 {
-    font-size: 28px;
-    padding: 7px;
-  }
-  .frontend {
-    /* border: solid red; */
-    padding: 25px;
+    width: fit-content;
+    margin: auto;
   }
   .skf1 > h1 {
     text-decoration: underline;
@@ -87,5 +52,52 @@
   }
   .skf1 img {
     height: 65px;
+  }
+  
+}
+@media (max-width: 550px){
+  .skilldiv > h1 {
+    font-size: 28px;
+    padding: 7px;
+  }
+  .frontend {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+  }
+  .skf1 > h1 {
+    text-decoration: underline;
+    color: #272341;
+    padding: 7px;
+    margin: 0;
+  }
+  .skf1 img {
+    height: 50px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 414px){
+  .skilldiv > h1 {
+    font-size: 28px;
+    padding: 7px;
+  }
+  .frontend {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+  }
+  .skf1 > h1 {
+    text-decoration: underline;
+    color: #272341;
+    padding: 7px;
+    margin: 0;
+  }
+  .skf1 img {
+    height: 50px;
   }
 }

@@ -17,6 +17,9 @@
     border: solid  5px black;
     /* height: 100% */
 }
+.profilepic img:hover{
+    transform: scale(1.10);
+}
 .namediv{
     /* border: solid red 1px; */
     width: 650px;
@@ -52,7 +55,8 @@
 .buttondiv button:hover{
     background-color: black;
     color: white;
-    padding: 12px 32px;
+    transform: scale(1.11);
+    /* padding: 12px 32px; */
 }
 .tagline{
     font-size: 20px;

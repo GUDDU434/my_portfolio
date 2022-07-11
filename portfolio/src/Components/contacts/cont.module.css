@@ -16,10 +16,13 @@ padding-top: 50px;
 }
 .mobile p{
     font-size: 22px;
+    width: fit-content;
+    margin: 20px auto;
 }
+
 .mobile p span:hover{
     color: black;
-    font-size: 23px;
+    transform: scale(1.11);
 }
 .logodiv{
     display: flex;
@@ -30,6 +33,9 @@ padding-top: 50px;
 .logodiv div{
     margin: 20px;
     cursor: pointer;
+}
+.logodiv div:hover{
+    transform: scale(1.11);
 }
 .copyright{
     /* border-top: solid 3px ; */

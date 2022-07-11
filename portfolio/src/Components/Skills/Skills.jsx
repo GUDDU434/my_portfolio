@@ -37,6 +37,12 @@ export const Skills = () => {
                 alt="reactjs"
               />
             </div>
+            <div onClick={() => click("https://code.visualstudio.com/")}>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKldv336KAtXazDI3Cy0KXghMeDKV-1sG2p-V_ur8Z8RTJaXuuwuKTgaY6RvDJ1Vkg5xg&usqp=CAU"
+                alt="reactjs"
+              />
+            </div>
           </div>
         </div>
         <div className={styles.skf1}>
@@ -69,6 +75,12 @@ export const Skills = () => {
             <div onClick={() => click("https://git-scm.com/")}>
               <img
                 src="https://camo.githubusercontent.com/bc60041f5ea7b022c6419b73a15aaac12a2ede682867ec0d3e3c9ec374dce54b/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f34382f3030303030302f6769742e706e67"
+                alt=""
+              />
+            </div>
+            <div onClick={() => click("https://expressjs.com/")}>
+              <img
+                src="https://miro.medium.com/max/800/1*Ahl24GrglQHwFcp5-_B36Q.png"
                 alt=""
               />
             </div>
